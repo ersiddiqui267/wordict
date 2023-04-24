@@ -17,7 +17,7 @@ class View {
   renderSpinner() {
     const markup = `
         <div class="conatiner--spinner mx-auto mt-16 w-24">
-            <img class="" src="./spinner.c5335edc.gif" alt="spinner" />
+            <img class="" src="${spinner}" alt="spinner" />
         </div>
     `;
     this._clear();
