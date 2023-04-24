@@ -1,0 +1,21 @@
+{
+  "name": "wordict",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.22",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.30.1",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
